@@ -1,0 +1,43 @@
+site_name: AA Mobile App User Guide
+site_url: https://hoangkimtrinh99-ai.github.io/aa-mobile-app/
+site_description: AA Mobile App User Guide
+use_directory_urls: true
+
+theme:
+  name: material
+  language: en
+  logo: images/new logo.png
+  favicon: images/new logo.png
+  palette:
+    - scheme: default
+      primary: white
+      accent: blue
+  features:
+    - navigation.expand
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      toc_depth: 2-2
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Using the App:
+    - Overview: using-app.md
+    - Profile Management: profile-management.md
+    - Accept and Confirm Case: accept-and-confirm-case.md
+    - Completed Case: completed-case.md
+    - Case Cancellation: case-cancellation.md
+    - Badges & Gamification: gamification.md
+
